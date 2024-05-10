@@ -21,31 +21,72 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-<!DOCTYPE html>
+```
 <html>
 <head>
- <title>Using Python's SimpleHTTPServer Module</title>
- <style>
- #rectangle {
- height: 50px;
- width: 100px;
- background-color: #00f28f;
- }
- </style>
+<title>Revenue Table</title>
+<caption><h2>COMPANY REVENUE TABLE </h2></caption>
 </head>
 <body>
- <h2>Rectangle served by SimpleHTTPServer</h2>
- <div id="rectangle"></div>
+<table border ="2" cellpadding="2" width="600" height="300" bgcolor="black">
+<tr bgcolor="Brown">
+<th>s.no</th>
+<th>Company Name</th>
+<th>USD($) in Billon</th>
+<th>Country</th>
+<th>Industry</th>
+</tr>
+<tr bgcolor="pink">
+<td>1</td>
+<td>Apple</td>
+<td>961.3</td>
+<td>USA</td>
+<td>Tech</td>
+</tr>
+<tr bgcolor="gray">
+<td>2</td>
+<td>Microsoft</td>
+<td>946.5</td>
+<td>USA</td>
+<td>Tech</td>
+</tr>
+<tr bgcolor="pink">
+<td>3</td>
+<td>Amazon.com</td>
+<td>916.1</td>
+<td>USA</td>
+<td>Tech</td>
+</tr>
+<tr bgcolor="gray">
+<td>4</td>
+<td>Alphabet</td>
+<td>863.2</td>
+<td>USA</td>
+<td>Tech</td>
+</tr>
+<tr bgcolor="pink">
+<td>5</td>
+<td>Berkshire Hathaway</td>
+<td>516.4</td>
+<td>USA</td>
+<td>Financials</td>
+</tr>
+<tr bgcolor="gray">
+<td>6</td>
+<td>Alibab</td>
+<td>480.8</td>
+<td>China</td>
+<td>Tech</td>
+</tr>
 </body>
 </html>
-
-
-
-
+```
 
 ## OUTPUT:
+![Screenshot 2024-05-10 133621](https://github.com/Dilliarasu0105/simplewebserver/assets/144979593/f393feff-2488-4d26-bab6-290fd74d61aa)
 
-![image](https://github.com/Dilliarasu0105/simplewebserver/assets/144979593/e8107aef-3895-46c6-a2da-4fbffd973a2d)
+![image](https://github.com/Dilliarasu0105/simplewebserver/assets/144979593/31d0c544-39d1-4e72-9bec-b39bdea12dab)
+
 
 
 
